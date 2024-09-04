@@ -20,7 +20,7 @@ export class Setting{
         
         if(number == ""){
 
-            $("#alert1").fadeIn(500)
+            $("#alert1").fadeIn(1000).fadeOut(1000)
         }
         else{
             let Api = `https://opentdb.com/api.php?amount=${number}&category=${category}&difficulty=${difficulty}`
